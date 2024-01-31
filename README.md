@@ -1,4 +1,4 @@
-x# Repositorio de Introducción a GIT
+# Repositorio de Introducción a GIT
 
 ## Comandos de configuración inicial
 - **git config -list**: Lista la configuración actual y global de GIT para el usuario.
@@ -9,4 +9,8 @@ x# Repositorio de Introducción a GIT
 - Crear ramas
 - Combinar ramas
 - Gestión de ramas
-- Restaurar cambios y commits
+- Restaurar cambios
+- Resolver conflictos
+- Trabajo colaborativo
+- Test
+- Fin Git
