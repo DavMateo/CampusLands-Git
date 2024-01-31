@@ -1,6 +1,9 @@
 # Created by https://www.toptal.com/developers/gitignore/api/node,visualstudiocode,microsoftoffice
 # Edit at https://www.toptal.com/developers/gitignore?templates=node,visualstudiocode,microsoftoffice
 
+## Python ##
+*.py
+
 ### MicrosoftOffice ###
 *.tmp
 

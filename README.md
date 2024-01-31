@@ -9,3 +9,4 @@ x# Repositorio de Introducción a GIT
 - Crear ramas
 - Combinar ramas
 - Gestión de ramas
+- Restaurar cambios y commits
