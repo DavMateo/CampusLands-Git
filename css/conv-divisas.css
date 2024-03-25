@@ -1,0 +1,125 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    text-align: center;
+    border: 2px solid;
+    width: 70%;
+    height: fit-content;
+}
+
+.conversor{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(4, auto);
+    grid-template-areas: "cantidad cantidad moneda moneda"
+                         "origen cant-orig div-orig div-orig"
+			             "destino cant-dest div-dest div-dest"
+			             "guardar guardar guardar guardar ";
+    align-items: center;
+    padding: 10px;
+    gap: .525rem;
+    justify-content: center;
+    align-items: center;
+}
+
+#cantidad{
+    margin-left: 4rem;
+    grid-area: cantidad;
+    justify-self: center;
+    
+}
+
+#moneda{
+    grid-area: moneda;
+}
+
+#origen{
+    grid-area: origen;
+}
+
+#destino{
+    grid-area: destino;
+}
+
+
+#cant-orig{
+    height: 70%;
+    grid-area: cant-orig;
+    background-color: #fefce0;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+#cant-dest{
+    height: 70%;
+    grid-area: cant-dest;
+    background-color: #dfedd6;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+#div-orig{
+    height: 100%;
+    grid-area: div-orig;
+    background-color: #fefce0;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#div-dest{
+    height: 100%;
+    grid-area: div-dest;
+    background-color: #dfedd6;
+    padding: 5px;
+    border-radius: 5px;
+    
+}
+
+#guardar{
+    grid-area: guardar;
+    background-color: #0844a4;
+    color: white;
+    padding: 10px;
+    width: 30%;
+    justify-self: flex-end;
+    border-radius: 5px;
+}
+
+@media (max-width:480px){
+.container{
+    width: fit-content;
+}
+
+h1{
+    font-size: 25px;
+}
+
+#cant-orig{
+    width: 90px;
+}
+
+#cant-dest{
+    width: 90px;
+}
+
+#div-orig{
+    height: 100%;
+    width: 100px;
+}
+
+#div-dest{
+    height: 100%;
+    width: 100px;
+}
+
+#guardar{
+    
+    width: 80px;
+}
+}

@@ -1,16 +1,9 @@
-# Repositorio de Introducción a GIT
+# Filtro Git - Ciclo n°3  
 
-## Comandos de configuración inicial
-- **git config -list**: Lista la configuración actual y global de GIT para el usuario.
+## Integrantes  
+- David Mateo Carreño Diaz  
+- Sebastián García Loyo  
+- Yulieth Dayana Correa Toro  
 
-
-## Temas
-- Conectar repositorio remoto
-- Crear ramas
-- Combinar ramas
-- Gestión de ramas
-- Restaurar cambios
-- Resolver conflictos
-- Trabajo colaborativo
-- Test
-- Fin Git
+## Curso  
+- Grupo C4  
